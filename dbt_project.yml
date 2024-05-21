@@ -1,6 +1,6 @@
 name: 'dbt_test'
 version: '1.0'
-profile: 'dbt_test'
+profile: 'my_dbt_project'
 config-version: 2
 
 model-paths: ["models"]
