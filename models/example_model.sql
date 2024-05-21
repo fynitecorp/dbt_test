@@ -5,7 +5,7 @@ WITH source_data AS (
         column1,
         column2,
         column3
-    FROM {{ ref('source_table') }}  -- Replace 'source_table' with the actual name of your source table
+    FROM {{ ref('example_data') }}  -- Replace 'source_table' with the actual name of your source table
 )
 
 SELECT
