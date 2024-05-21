@@ -1,0 +1,14 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: CDRNPAO.ER08393
+      user: f5tran_user
+      password: password123!@
+      role: f5tran_role
+      database: DB_FOR_DBT
+      warehouse: FIVETRAN_WAREHOUSE
+      schema: FIVETRAN_METADATA
+      threads: 1
+
